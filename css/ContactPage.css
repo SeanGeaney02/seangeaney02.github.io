@@ -1,0 +1,70 @@
+#mainTitle {
+    color: white;
+    text-align: left;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'Kalnia', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Young Serif', serif;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    justify-content: space-around;
+    background-color: black;
+}
+
+#nav>a {
+    text-decoration: none;
+    font-size: x-large;
+    color: white;
+    padding: 1%;
+}
+
+#nav>a:hover {
+    background-color: darkblue;
+}
+
+
+body{
+    background-color: rgb(66, 179, 66);
+    margin: 0px;
+}
+
+div{
+    text-align: center;
+    background-color: white;
+    height: 420px;
+    width: 2000px;
+    
+}
+
+input{
+    padding: 15px ;
+    margin: 3px;
+
+}
+
+#Heading{
+color: rgb(66, 179, 66);
+}
+.button{
+margin: 5px;
+padding: 5px;
+border-radius: 10%;
+}
+
+#CTop{
+    background-color:rgb(66, 179, 66)  ;
+    height: 200px;
+}
+
+#CBottom{
+    background-color:rgb(66, 179, 66) ;
+    text-align: center;
+    color: white;
+   
+}
+
