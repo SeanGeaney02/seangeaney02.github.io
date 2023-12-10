@@ -11,7 +11,7 @@
 #nav {
     display: flex;
     flex-direction: row;
-    flex-basis: auto;
+    flex-basis: 1%;
     justify-content: space-around;
     background-color: black;
 }
@@ -33,9 +33,9 @@ body{
     margin: 0px;
 }
 
-div{
+#contactForm{
     text-align: center;
-    background-color: white;
+    background-color: gray;
     height: 420px;
     width: 2000px;
     
@@ -62,7 +62,7 @@ border-radius: 10%;
 }
 
 #CBottom{
-    background-color:rgb(66, 179, 66) ;
+    background-color:black;
     text-align: center;
     color: white;
    
