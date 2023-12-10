@@ -1,20 +1,29 @@
 
+// function to change the elemnts being displayed on the page
 function elecPic() {
+    // this is if the eltric car pic is not displayed which is default
     if (document.getElementById("elecCar").style.display = 'none') {
-
+        // make this not visable
         document.getElementById("carBad").style.display = 'none';
+        // make this not visable
         document.getElementById("carP").style.display = 'none';
+        // make this not visable
         document.getElementById("GBtn").style.display = 'none';
+        // make this visable
         document.getElementById("elecP").style.display = 'block';
+        // make this visable
         document.getElementById("elecCar").style.display = 'block';
+        // make this visable
         document.getElementById("BBtn").style.display = 'block';
+        // change the background colour
         document.getElementById("carbonEmmissions").style.backgroundColor = 'lightgreen';
     }
 }
 
 function carBack() {
+    // this is if the eletric car pic is being displayed
     if (document.getElementById("elecCar").style.display = 'block') {
-
+        // do the reverse off above
         document.getElementById("carBad").style.display = 'block';
         document.getElementById("carP").style.display = 'block';
         document.getElementById("elecP").style.display = 'none';
