@@ -87,13 +87,13 @@ function miniGame() {
         return;
     } else if (ans5 == "Yes" || ans5 == "yes") {
         counter = counter + 1
-        document.getElementById("q5").innerHTML = "Question:Did you find this websites information informative and well designed? <br> Answer: " + ans2;
+        document.getElementById("q5").innerHTML = "Question:Did you find this websites information informative and well designed? <br> Answer: " + ans5;
         console.log(counter);
     } else if (ans1 == null) {
         return
     } else {
         counter = counter
-        document.getElementById("q5").innerHTML = "Question:Did you find this websites information informative and well designed? <br> Answer: " + ans2;
+        document.getElementById("q5").innerHTML = "Question:Did you find this websites information informative and well designed? <br> Answer: " + ans5;
         console.log(counter);
     }
 
@@ -108,4 +108,4 @@ function miniGame() {
         document.getElementById("WorL").innerHTML = "Oh so close but you didnt get all the questions correct, try again and win your reward"
     }
 
-};
+}

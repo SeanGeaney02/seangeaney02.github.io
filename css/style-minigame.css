@@ -88,9 +88,10 @@ footer {
 }
 
 #cookie {
-    display: none;
+    display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: auto;
     width: 50%;
 }
 
